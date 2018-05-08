@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SorveteActivity">
+
+    <LinearLayout
+        style="@style/LinearLayout">
+
+        <ImageView
+            style="@style/ImagemView"
+            android:src="@drawable/sorvete"/>
+
+        <TextView
+            style="@style/TextView"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/titulo_sorvete"
+            android:textAppearance="?android:textAppearanceLargeInverse"/>
+
+        <TextView
+
+            style="@style/TextView"
+            android:text="@string/receita_sorvete"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+    </LinearLayout>
+
+</ScrollView>
